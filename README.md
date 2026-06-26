@@ -83,16 +83,16 @@ The pipeline ingests your baseline documentation, semantically understands its s
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    LANGGRAPH STATE MACHINE               │
+│                    LANGGRAPH STATE MACHINE              │
 │                                                         │
-│   ┌──────────────┐    ┌──────────────┐    ┌──────────┐ │
-│   │   PHASE 1    │───▶│   PHASE 2    │───▶│ PHASE 3  │ │
-│   │ RAG Ingestion│    │  Extraction  │    │ Drafting │ │
-│   └──────────────┘    └──────────────┘    └──────────┘ │
+│   ┌──────────────┐    ┌──────────────┐    ┌──────────┐  │
+│   │   PHASE 1    │───▶│   PHASE 2    │───▶│ PHASE 3 │  │
+│   │ RAG Ingestion│    │  Extraction  │    │ Drafting │  │
+│   └──────────────┘    └──────────────┘    └──────────┘  │
 │          │                   │                  │       │
-│     PDF Upload          ADO / Confluence    RAG Query  │
-│     Chunking            Sprint Deltas       + Merge    │
-│     ChromaDB            Categorization      Output     │
+│     PDF Upload          ADO / Confluence    RAG Query   │
+│     Chunking            Sprint Deltas       + Merge     │ 
+│     ChromaDB            Categorization      Output      │
 └─────────────────────────────────────────────────────────┘
                                                     │
                               ┌─────────────────────┤
