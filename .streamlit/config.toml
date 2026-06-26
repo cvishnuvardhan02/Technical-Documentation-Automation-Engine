@@ -1,0 +1,14 @@
+[theme]
+# Ivanti Signature Red
+primaryColor = "#D81B21"
+
+# Crisp White Background for readability
+backgroundColor = "#FFFFFF"
+
+# Light Slate/Grey for the sidebar and secondary elements
+secondaryBackgroundColor = "#F4F4F6"
+
+# Dark Charcoal for text
+textColor = "#212529"
+
+font = "sans serif"
